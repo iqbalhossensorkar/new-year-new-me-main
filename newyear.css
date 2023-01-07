@@ -148,9 +148,12 @@
     border-style: none;
     margin-left: 84px;
 }
-.goal-section{
+
+.goal-section {
     text-align: center;
+    margin-bottom: 100px;
 }
+
 .goal-title {
     font-family: 'Work Sans';
     font-weight: 700;
@@ -171,7 +174,8 @@
     border-radius: 5px;
     padding: 30px;
 }
-.goal-description{
+
+.goal-description {
     font-weight: 400;
     color: #737272;
     font-size: 12px;
@@ -179,14 +183,15 @@
 
 /* main styles end */
 /* footer styles start */
-
-.future {
-    margin-top: 260px;
-    background: #151414;
+footer {
+    background-color: rgb(0, 0, 0);
     height: 577px;
+    
 }
 
+
 .header-all-secondary {
+    padding-right: 200px;
     padding-top: 160px;
     max-width: 1140px;
     margin: 0 auto;
