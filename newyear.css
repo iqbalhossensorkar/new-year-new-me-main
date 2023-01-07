@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles start */
+
+.header {
+    text-align: right;
+    background-image: url('/images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.header-all {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header-all-title {
+    padding-top: 216px;
+    margin-bottom: 24px;
+    margin-left: 600px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.header-description {
+    margin-left: 650px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 20px 25px;
+    margin-bottom: 186px;
+    color: #005FAC;
+    font-weight: 600px;
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+}
+
+/* header styles end */
+
+/* main styles star */
+
+.failures {
+    display: flex;
+    margin-top: 130px;
+    gap: 87px;
+    align-items: center;
+}
+
+.failure-person {
+    margin-bottom: 130px;
+}
+
+.primary-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.primary-description {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.fa-solid {
+    margin-right: 10px;
+    color: #16D887;
+}
+
+.main-plans {
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary-title {
+    margin-bottom: 50px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.category-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.category-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-bottom: 136px;
+}
+
+.positive-mindset {
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    background-image:
+        linear-gradient(to right, rgba(21, 0, 255, 0.734), rgba(255, 255, 255, 0)),
+        url('images/watch.png');
+    width: 100%;
+    height: 300px;
+
+}
+
+.positive-title {
+    margin-left: 84px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 24px;
+    margin-right: 600px;
+}
+
+.btn-secondary {
+    padding: 20px 25px;
+    margin-bottom: 186px;
+    color: #005FAC;
+    font-weight: 600px;
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 84px;
+}
+.goal-section{
+    text-align: center;
+}
+.goal-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.goal-container {
+    display: flex;
+    gap: 24px;
+}
+
+.goal {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.goal-description{
+    font-weight: 400;
+    color: #737272;
+    font-size: 12px;
+}
+
+/* main styles end */
+/* footer styles start */
+
+.future {
+    margin-top: 260px;
+    background: #151414;
+    height: 577px;
+}
+
+.header-all-secondary {
+    padding-top: 160px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 350px;
+}
+
+.description-title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.description-future {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.description-future-second {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.description-future-third {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.subscribe form {
+    margin-top: 30px;
+    margin-bottom: 16px;
+
+
+}
+
+.subscribe input[type="text"] {
+    margin-bottom: 24px;
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 21px;
+    padding-right: 158px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+}
+
+.btn-inverted {
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 36px;
+}
+
+/* footer styles end */
